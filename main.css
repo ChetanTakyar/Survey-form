@@ -1,21 +1,52 @@
 html {
-	background-color: #e76f51;
+	background-color: #264653;
 }
 
 h1 {
 	font-family: Helvetica;
 	text-align: center;
-	color: #264653;
+	color: #2a9d8f;
 	font-weight: 800;
 }
 p {
 	font-family: Helvetica;
 	text-align: center;
-	color: #264653;
+	color: #2a9d8f;
+	font-weight: 600;
 }
-#center-form{
-    display: block;
+#survey-form{
+	background: rgba(0, 0, 0, 0.5);
+	display: block;
+	margin: 0 auto;
+	width: 30%;
+	height: 40em;
+	z-index: 1;
+	box-sizing: border-box;
+	padding-top: 2%;
+	
+}
+
+label{
+	color: #2a9d8f;
+	font-family: Helvetica;
+	margin-left: 8.5%;
+	margin-bottom: 9%;
+}
+
+input{
+	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
-	width: 100%;
+	display: block;
+	border-radius: 0.5em;
+	padding: 10px;
+}
+
+#dropdown{
+	width: 83%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	border-radius: 0.5em;
+	padding: 10px;
 }

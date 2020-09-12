@@ -10,10 +10,30 @@
     <br>
    <div id="center-form"> 
        <form id="survey-form">
-        <label>Name</label>
+        <label id="name-label">Name</label>
         <br>
-        <input id="name" required></input>
+        <input id="name" required placeholder="Enter your name"></input>
+        <br>
+        <label id="email-label">Email</label>
+        <br>
+        <input id="email" type="email" required placeholder="Enter your email"></input>
+        <br>
+        <label id="number-label">Age(optional)</label>
+        <br>
+        <input id="number" type="number" placeholder="Age" min="10" max="99"></input>
+        <br>
+        <label id="dropdown-label">Which option best describes your current role?</label>
+        <br>
+        <select id="dropdown">
+            <option>Select Current Role</option>
+            <option>Student</option>
+            <option>Full Time Job</option>
+            <option>Full Time Learner</option>
+            <option>Prefer Not To Say</option>
+            <option>Other</option>
 
+        </select>
+        
     </form>
 </div>
 </body>
