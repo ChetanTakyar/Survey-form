@@ -1,14 +1,21 @@
-html{
-    background-color: #e76f51;
+html {
+	background-color: #e76f51;
 }
 
-h1{
-    font-family:Helvetica; 
-    text-align: center;
-    color: #264653;
+h1 {
+	font-family: Helvetica;
+	text-align: center;
+	color: #264653;
+	font-weight: 800;
 }
-p{
-    font-family:Helvetica; 
-    text-align: center;
-    color:#264653;
+p {
+	font-family: Helvetica;
+	text-align: center;
+	color: #264653;
+}
+#center-form{
+    display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
 }
